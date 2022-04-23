@@ -14,7 +14,7 @@ class ApiController {
         final resBody = json.decode(res.body);
 
         for (var hospital in resBody) {
-          hospitals.add(BaseModel.fromJson(hospital));
+          hospitals.add(BaseModel.fromMap(hospital));
         }
         return hospitals;
       }

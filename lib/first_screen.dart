@@ -30,7 +30,7 @@ class _FirstScreenState extends State<FirstScreen> {
               return ListTile(
                 title: Text(hospital.hospitalName ?? ''),
                 subtitle:
-                    Text('Beds avaliable ${hospital.availableBedsWithOxygen}'),
+                    Text('Oxygen Beds avaliable ${hospital.availableBedsWithOxygen}'),
               );
             },
           );

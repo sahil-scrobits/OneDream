@@ -10,18 +10,18 @@ class HomeScreen extends StatelessWidget {
         length: 2,
         child: Scaffold(
           appBar: AppBar(
-            title: const Text('Flutter Tabs Demo'),
+            title: const Text('Hospital Beds Nearby'),
             bottom: const TabBar(
               tabs: [
-                Tab(icon: Icon(Icons.contacts), text: "Tab 1"),
-                Tab(icon: Icon(Icons.camera_alt), text: "Tab 2")
+                Tab(icon: Icon(Icons.local_hospital_outlined), text: "Pune"),
+                Tab(icon: Icon(Icons.local_hospital_sharp), text: "Realtime")
               ],
             ),
           ),
-          body: const TabBarView(
+          body:  TabBarView(
             children: [
               FirstScreen(),
-              SecondScreen(),
+              RealTimeHospitalBeds(),
             ],
           ),
         ),

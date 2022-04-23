@@ -1,7 +1,17 @@
 import 'package:bed_tracker/home_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: const FirebaseOptions(
+      apiKey: "AIzaSyBSWmf1D4FSSrqhcx72eQj6EgzZLZF9ieE",
+      appId: "1:573618742901:android:06aa39f39e5f7dfcbd7a3c",
+      messagingSenderId: "573618742901",
+      projectId: "onedream-12b54",
+    ),
+  );
   runApp(const MyApp());
 }
 
