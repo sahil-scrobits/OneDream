@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "573618742901",
+    "project_id": "onedream-12b54",
+    "storage_bucket": "onedream-12b54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573618742901:android:06aa39f39e5f7dfcbd7a3c",
+        "android_client_info": {
+          "package_name": "com.example.bed_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573618742901-jmcovni2cuhidl1h4kq9d1a5iv6n79t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSWmf1D4FSSrqhcx72eQj6EgzZLZF9ieE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573618742901-jmcovni2cuhidl1h4kq9d1a5iv6n79t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
