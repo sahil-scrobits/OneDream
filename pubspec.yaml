@@ -28,10 +28,16 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   cloud_firestore: ^3.1.13
+  counter: ^0.2.2
   cupertino_icons: ^1.0.2
   firebase_core: ^1.15.0
   flutter:
     sdk: flutter
+  flutter_search_bar: ^2.1.0
+  geocoding: ^2.0.4
+  geolocator: ^8.2.0
+  get: ^4.6.1
+  getxbottombar: ^0.0.1
   http: ^0.13.4
 
 dev_dependencies:

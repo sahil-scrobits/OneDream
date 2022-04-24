@@ -42,9 +42,10 @@ class _RealTimeHospitalBedsState extends State<RealTimeHospitalBeds> {
             Map<String, dynamic> data =
                 document.data()! as Map<String, dynamic>;
             return ListTile(
-              title: Text(data['hospitalName']),
-              subtitle: Text(data['oxygenBedsAvailable'].toString()),
-            );
+                title: Text(data['hospitalName']),
+                subtitle: Text(
+                  'Oxygen: ${data['oxygenBed']}, ICU: ${data['icuBed']}, General ${data['generalBed']} ',
+                ));
           }).toList(),
         );
       },
